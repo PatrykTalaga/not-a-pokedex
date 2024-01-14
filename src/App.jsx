@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [text, setText] = useState("3");
   const [search, setSearch] = useState(true); //trigger for useEffect
-  //handling api request staus (loading, error, success):
+  //handling api request status (loading, error, success):
   const [pokemonData, setPokemonData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(false);
